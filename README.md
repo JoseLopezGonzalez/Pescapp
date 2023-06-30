@@ -36,13 +36,14 @@
 
 Request
 ```json
- especie = { 	
-		"id":"1",
-		"nombre":"Pulpo común",
-		"nombreCientifico":"Octopus Vulgaris",
-		"fao":"OCC",
-		"imagen":"pulpo_comun.jpg"
-	   } 
+//especie
+{ 	
+	"id":"1",
+	"nombre":"Pulpo común",
+	"nombreCientifico":"Octopus Vulgaris",
+	"fao":"OCC",
+	"imagen":"pulpo_comun.jpg"
+} 
 ```
 
 ------------
