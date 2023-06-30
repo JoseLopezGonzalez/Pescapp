@@ -2,7 +2,7 @@
 
 # Especies
 
-`GET : .../app/src/api/especies/`
+`[GET] : .../app/src/api/especies/`
 
 ```json
 [ { 	
@@ -16,7 +16,7 @@
 
 ### Especie
 
-`GET: .../app/src/api/especies/?id=1`
+`[GET]: .../app/src/api/especies/?id=1`
 
 ```json
  { 	
