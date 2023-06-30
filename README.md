@@ -1,6 +1,6 @@
 # Pescapp
 
-# Especies
+## Especies
 
 `[GET]: .../app/src/api/especies/`
 
@@ -16,6 +16,8 @@
 
 ### Especie
 
+> **Get** single especie
+
 `[GET]: .../app/src/api/especies/?id=1`
 
 ```json
@@ -26,6 +28,21 @@
 	"fao":"OCC",
 	"imagen":"pulpo_comun.jpg" 
  } 
+```
+
+> **Create** especie
+
+`[POST]: .../app/src/api/especies/`
+
+Request
+```json
+ especie = { 	
+		"id":"1",
+		"nombre":"Pulpo común",
+		"nombreCientifico":"Octopus Vulgaris",
+		"fao":"OCC",
+		"imagen":"pulpo_comun.jpg"
+	   } 
 ```
 
 ------------
