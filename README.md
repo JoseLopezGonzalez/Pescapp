@@ -27,3 +27,25 @@
 	"imagen":"pulpo_comun.jpg" 
  } 
 ```
+
+# Zonas de capturas
+
+`[GET]: .../app/src/api/zonas_capturas/`
+
+```json
+[{
+	"id":"1",
+	"nombre":"Zona 27.IX.a - Atlántico, nordeste"
+ } , ...]
+```
+
+### Zona de captura
+
+`[GET]: .../app/src/api/zonas_capturas/?id=1`
+
+```json
+ {
+	"id":"1",
+	"nombre":"Zona 27.IX.a - Atlántico, nordeste"
+ } 
+```
