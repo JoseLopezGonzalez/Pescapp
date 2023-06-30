@@ -75,3 +75,35 @@
 	"nombre":"Zona 27.IX.a - Atlántico, nordeste"
  } 
 ```
+
+`[GET]: .../app/src/api/especies/`
+
+```json
+{
+	"id":"570",
+	"proveedor":{
+		"id":"12",
+		"nombre":"La Cabriola",
+		"tipo":"1",
+		"razonSocial":"-",
+		"nif":"-",
+		"direccion":"-",
+		"poblacion":"Conil ",
+		"cp":"11140",
+		"pais":"España"
+	},
+	"fecha":"2023-06-30",
+	"estado":"0",
+	"lineasArticulos":[],
+	"lineasArticulosMateriasPrimas":[{},{},{}],
+	"lineasArticulosEspeciales":[{}],
+	"lineasDescuentos":[],
+	"agrupado":0,
+	"subtotal":380,
+	"descuentos":null,
+	"baseImponible":380,
+	"impuestos":null,
+	"importeTotal":380,
+	"cantidadTotal":45
+}
+```
