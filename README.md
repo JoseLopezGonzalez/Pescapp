@@ -16,7 +16,7 @@
 
 ## Especie
 
- ### **Get** single especie
+### **Get** single especie
 
 `[GET]: .../app/src/api/especies/?id=1`
 
