@@ -51,3 +51,12 @@
 	"nombre":"Zona 27.IX.a - Atlántico, nordeste"
  } 
 ```
+
+`[POST]: .../app/src/api/zonas_capturas/`
+
+```json
+ {
+	"id":"1",
+	"nombre":"Zona 27.IX.a - Atlántico, nordeste"
+ } 
+```
