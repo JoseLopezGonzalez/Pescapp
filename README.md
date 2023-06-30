@@ -28,6 +28,8 @@
  } 
 ```
 
+------------
+
 # Zonas de capturas
 
 `[GET]: .../app/src/api/zonas_capturas/`
