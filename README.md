@@ -37,6 +37,42 @@
 Request:
 ```json
 { 	
+	"nombre":"Pulpo común"
+	"nombreCientifico":"Octopus Vulgaris",
+	"fao":"OCC",
+	"imagen":"pulpo_comun.jpg"
+} 
+```
+
+Response:
+```json
+{
+	"completed": true,
+	"especie": { 	
+			"id":"1",
+			"nombre":"Pulpo común",
+			"nombreCientifico":"Octopus Vulgaris",
+			"fao":"OCC",
+			"imagen":"pulpo_comun.jpg"
+		   }
+}
+```
+
+Error:
+```json
+{
+	"completed": false,
+	"error": "No se ha insertado correctamente en la BD."
+}
+```
+
+> **Update** especie
+
+`[POST]: .../app/src/api/especies/`
+
+Request:
+```json
+{ 	
 	"id":"1",
 	"nombre":"Pulpo común",
 	"nombreCientifico":"Octopus Vulgaris",
@@ -55,14 +91,15 @@ Response:
 			"nombreCientifico":"Octopus Vulgaris",
 			"fao":"OCC",
 			"imagen":"pulpo_comun.jpg"
-		   } 
+		   }
+}
 ```
 
 Error:
 ```json
 {
 	"completed": false,
-	"error": "No se ha insertado correctamente en la BD."
+	"error": "No se ha actualizado correctamente en la BD."
 }
 ```
 
