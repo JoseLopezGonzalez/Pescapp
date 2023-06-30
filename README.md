@@ -9,8 +9,9 @@
 	"id":"1",
 	"nombre":"Pulpo común",
 	"nombreCientifico":"Octopus Vulgaris",
-	"fao":"OCC","imagen":"pulpo_comun.jpg" 
- } , ... ]
+	"fao":"OCC",
+	"imagen":"pulpo_comun.jpg" 
+ } , ...]
 ```
 
 ### Especie
@@ -22,6 +23,7 @@
 	"id":"1",
 	"nombre":"Pulpo común",
 	"nombreCientifico":"Octopus Vulgaris",
-	"fao":"OCC","imagen":"pulpo_comun.jpg" 
+	"fao":"OCC",
+	"imagen":"pulpo_comun.jpg" 
  } 
 ```
