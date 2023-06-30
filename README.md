@@ -43,6 +43,9 @@
 
 ### Zona de captura
 
+> **Get** single zona de captura
+
+
 `[GET]: .../app/src/api/zonas_capturas/?id=1`
 
 ```json
@@ -51,6 +54,18 @@
 	"nombre":"Zona 27.IX.a - Atlántico, nordeste"
  } 
 ```
+
+>** Create** zona de captura
+
+`[POST]: .../app/src/api/zonas_capturas/`
+
+```json
+ {
+	"nombre":"Zona 27.IX.a - Atlántico, nordeste"
+ } 
+```
+
+>** Update** zona de captura
 
 `[POST]: .../app/src/api/zonas_capturas/`
 
