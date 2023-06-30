@@ -16,7 +16,7 @@
 
 ### Especie
 
-> **Get** single especie
+ **Get** single especie
 
 `[GET]: .../app/src/api/especies/?id=1`
 
@@ -30,12 +30,13 @@
  } 
 ```
 
-> **Create** especie
+ **Create** especie
 
 `[POST]: .../app/src/api/especies/`
 
-Request:
-```json
+> REQUEST:
+
+ ```json
 { 	
 	"nombre":"Pulpo común"
 	"nombreCientifico":"Octopus Vulgaris",
@@ -43,8 +44,8 @@ Request:
 	"imagen":"pulpo_comun.jpg"
 } 
 ```
+> RESPONSE:
 
-Response:
 ```json
 {
 	"completed": true,
@@ -58,20 +59,21 @@ Response:
 }
 ```
 
-Error:
+> ERROR:
+
 ```json
 {
 	"completed": false,
 	"error": "No se ha insertado correctamente en la BD."
 }
 ```
-------------
 
-> **Update** especie
+**Update** especie
 
 `[POST]: .../app/src/api/especies/`
 
-Request:
+> REQUEST:
+
 ```json
 { 	
 	"id":"1",
@@ -82,7 +84,8 @@ Request:
 } 
 ```
 
-Response:
+> RESPONSE:
+
 ```json
 {
 	"completed": true,
@@ -96,7 +99,8 @@ Response:
 }
 ```
 
-Error:
+> ERROR:
+
 ```json
 {
 	"completed": false,
@@ -104,7 +108,7 @@ Error:
 }
 ```
 
-[========]
+------------
 
 # Zonas de capturas
 
