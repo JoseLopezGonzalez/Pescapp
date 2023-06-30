@@ -55,7 +55,7 @@
  } 
 ```
 
->** Create** zona de captura
+>**Create** zona de captura
 
 `[POST]: .../app/src/api/zonas_capturas/`
 
@@ -65,7 +65,7 @@
  } 
 ```
 
->** Update** zona de captura
+>**Update** zona de captura
 
 `[POST]: .../app/src/api/zonas_capturas/`
 
