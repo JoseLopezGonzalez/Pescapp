@@ -48,14 +48,22 @@ Request:
 Response:
 ```json
 {
-	"Completed": true,
-	"especie" = { 	
+	"completed": true,
+	"especie": { 	
 			"id":"1",
 			"nombre":"Pulpo común",
 			"nombreCientifico":"Octopus Vulgaris",
 			"fao":"OCC",
 			"imagen":"pulpo_comun.jpg"
-		    } 
+		   } 
+```
+
+Error:
+```json
+{
+	"completed": false,
+	"error": "No se ha insertado correctamente en la BD."
+}
 ```
 
 ------------
