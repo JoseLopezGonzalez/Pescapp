@@ -14,9 +14,9 @@
  } , ...]
 ```
 
-### Especie
+## Especie
 
- **Get** single especie
+ ###**Get** single especie
 
 `[GET]: .../app/src/api/especies/?id=1`
 
@@ -30,7 +30,7 @@
  } 
 ```
 
- **Create** especie
+ ###**Create** especie
 
 `[POST]: .../app/src/api/especies/`
 
@@ -68,7 +68,7 @@
 }
 ```
 
-**Update** especie
+###**Update** especie
 
 `[POST]: .../app/src/api/especies/`
 
