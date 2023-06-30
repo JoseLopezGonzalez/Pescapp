@@ -198,7 +198,7 @@
 ```json
 {
 	"completed": false,
-	"error": "No se ha insertado correctamente en la BD."
+	"error": "No se ha actualizado correctamente en la BD."
 }
 ```
 
