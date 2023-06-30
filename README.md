@@ -110,7 +110,7 @@
 
 ------------
 
-# Zonas de capturas
+## Zonas de capturas
 
 `[GET]: .../app/src/api/zonas_capturas/`
 
@@ -121,9 +121,9 @@
  } , ...]
 ```
 
-### Zona de captura
+## Zona de captura
 
-> **Get** single zona de captura
+### **Get** single zona de captura
 
 
 `[GET]: .../app/src/api/zonas_capturas/?id=1`
@@ -135,9 +135,11 @@
  } 
 ```
 
->**Create** zona de captura
+### **Create** zona de captura
 
 `[POST]: .../app/src/api/zonas_capturas/`
+
+> REQUEST:
 
 ```json
  {
@@ -145,9 +147,32 @@
  } 
 ```
 
->**Update** zona de captura
+> RESPONSE:
+
+```json
+{
+	"completed": true,
+	"zonaCaptura": { 	
+			"id":"1",
+			"nombre":"Zona 27.IX.a - Atlántico, nordeste"
+		   }
+}
+```
+
+> ERROR:
+
+```json
+{
+	"completed": false,
+	"error": "No se ha insertado correctamente en la BD."
+}
+```
+
+### **Update** zona de captura
 
 `[POST]: .../app/src/api/zonas_capturas/`
+
+> REQUEST:
 
 ```json
  {
@@ -155,6 +180,28 @@
 	"nombre":"Zona 27.IX.a - Atlántico, nordeste"
  } 
 ```
+
+> RESPONSE:
+
+```json
+{
+	"completed": true,
+	"zonaCaptura": { 	
+			"id":"1",
+			"nombre":"Zona 27.IX.a - Atlántico, nordeste"
+		   }
+}
+```
+
+> ERROR:
+
+```json
+{
+	"completed": false,
+	"error": "No se ha insertado correctamente en la BD."
+}
+```
+
 
 `[GET]: .../app/src/api/especies/`
 
