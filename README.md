@@ -65,6 +65,7 @@ Error:
 	"error": "No se ha insertado correctamente en la BD."
 }
 ```
+------------
 
 > **Update** especie
 
@@ -103,7 +104,7 @@ Error:
 }
 ```
 
-------------
+[========]
 
 # Zonas de capturas
 
