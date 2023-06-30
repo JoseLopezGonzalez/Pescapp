@@ -35,7 +35,7 @@
 `[POST]: .../app/src/api/especies/`
 
 Request
-```json
+```js
 //especie
 { 	
 	"id":"1",
