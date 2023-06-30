@@ -34,9 +34,8 @@
 
 `[POST]: .../app/src/api/especies/`
 
-Request
-```js
-//especie
+Request:
+```json
 { 	
 	"id":"1",
 	"nombre":"Pulpo común",
@@ -44,6 +43,19 @@ Request
 	"fao":"OCC",
 	"imagen":"pulpo_comun.jpg"
 } 
+```
+
+Response:
+```json
+{
+	"Completed": true,
+	"especie" = { 	
+			"id":"1",
+			"nombre":"Pulpo común",
+			"nombreCientifico":"Octopus Vulgaris",
+			"fao":"OCC",
+			"imagen":"pulpo_comun.jpg"
+		    } 
 ```
 
 ------------
