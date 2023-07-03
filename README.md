@@ -70,7 +70,7 @@
 
 ### **Update** especie
 
-`[PUT]: .../app/src/api/especies/`
+`[PUT] o [PATCH]: .../app/src/api/especies/`
 
 > REQUEST:
 
