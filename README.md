@@ -171,6 +171,7 @@
 ### **Update** zona de captura
 
 `[PUT]: .../app/src/api/zonas_capturas/`
+· No tiene posibilidad de PATCH (ya que solo tiene una propiedad o atributo)
 
 > REQUEST:
 
