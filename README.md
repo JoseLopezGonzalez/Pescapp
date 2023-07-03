@@ -70,7 +70,7 @@
 
 ### **Update** especie
 
-`[POST]: .../app/src/api/especies/`
+`[PUT]: .../app/src/api/especies/`
 
 > REQUEST:
 
@@ -170,7 +170,7 @@
 
 ### **Update** zona de captura
 
-`[POST]: .../app/src/api/zonas_capturas/`
+`[PUT]: .../app/src/api/zonas_capturas/`
 
 > REQUEST:
 
