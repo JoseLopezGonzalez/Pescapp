@@ -203,4 +203,159 @@
 }
 ```
 
+------------
+
+## Barcos
+
+`[GET]: .../app/src/api/proveedores/barcos`
+
+```json
+[{
+        "id": "1",
+        "nombre": "Bellita Cale",
+        "tipo": "1",
+        "razonSocial": "-",
+        "nif": "-",
+        "direccion": "-",
+        "poblacion": "Isla Cristina",
+        "cp": "21410",
+        "pais": "España",
+        "matricula": "3SE-1-11-04",
+        "cfr": "ESP000026188",
+        "contrato": "0"
+ }, ...]
+```
+
+## Barco
+
+### **Get** single barco
+
+
+`[GET]: .../app/src/api/proveedores/barcos/?id=1`
+
+```json
+ {
+        "id": "1",
+        "nombre": "Bellita Cale",
+        "tipo": "1",
+        "razonSocial": "-",
+        "nif": "-",
+        "direccion": "-",
+        "poblacion": "Isla Cristina",
+        "cp": "21410",
+        "pais": "España",
+        "matricula": "3SE-1-11-04",
+        "cfr": "ESP000026188",
+        "contrato": "0"
+ }
+```
+
+### **Create** barco
+
+`[POST]: .../app/src/api/proveedores/barcos/`
+
+> REQUEST:
+
+```json
+ {
+        "nombre": "Bellita Cale",
+        "tipo": "1",
+        "razonSocial": "-",
+        "nif": "-",
+        "direccion": "-",
+        "poblacion": "Isla Cristina",
+        "cp": "21410",
+        "pais": "España",
+        "matricula": "3SE-1-11-04",
+        "cfr": "ESP000026188",
+        "contrato": "0"
+ }
+```
+
+> RESPONSE:
+
+```json
+{
+	"completed": true,
+	"barco": {
+		        "id": "1",
+		        "nombre": "Bellita Cale",
+		        "tipo": "1",
+		        "razonSocial": "-",
+		        "nif": "-",
+		        "direccion": "-",
+		        "poblacion": "Isla Cristina",
+		        "cp": "21410",
+		        "pais": "España",
+		        "matricula": "3SE-1-11-04",
+		        "cfr": "ESP000026188",
+		        "contrato": "0"
+		 }
+}
+```
+
+> ERROR:
+
+```json
+{
+	"completed": false,
+	"error": "No se ha insertado correctamente en la BD."
+}
+```
+
+### **Update** barco
+
+`[PUT] o [PATCH]: .../app/src/api/proveedores/barcos/`
+
+> REQUEST:
+
+```json
+ {
+        "id": "1",
+        "nombre": "Bellita Cale",
+        "tipo": "1",
+        "razonSocial": "-",
+        "nif": "-",
+        "direccion": "-",
+        "poblacion": "Isla Cristina",
+        "cp": "21410",
+        "pais": "España",
+        "matricula": "3SE-1-11-04",
+        "cfr": "ESP000026188",
+        "contrato": "0"
+ }
+```
+
+> RESPONSE:
+
+```json
+{
+	"completed": true,
+	"barco": {
+		        "id": "1",
+		        "nombre": "Bellita Cale",
+		        "tipo": "1",
+		        "razonSocial": "-",
+		        "nif": "-",
+		        "direccion": "-",
+		        "poblacion": "Isla Cristina",
+		        "cp": "21410",
+		        "pais": "España",
+		        "matricula": "3SE-1-11-04",
+		        "cfr": "ESP000026188",
+		        "contrato": "0"
+		 }
+}
+```
+
+> ERROR:
+
+```json
+{
+	"completed": false,
+	"error": "No se ha actualizado correctamente en la BD."
+}
+```
+
+
 
